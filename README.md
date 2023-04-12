@@ -36,6 +36,27 @@ Rewards:
 - The AI gets a bad reward of -0.2 if it moves away from the destination.
 - The AI gets a good reward of 0.1 if it moves closer to the destination.
 
+Simple Demo:
 
+https://user-images.githubusercontent.com/77040892/231374683-85f0fab7-96c4-4c4b-b93d-e532f850c084.mov
+
+**To Run The File: Use Anaconda Prompt**
+
+Inside the terminal, enter the following:
+  
+	conda create -n selfdrivingcar python=3.6 
+
+  
+	conda activate selfdrivingcar
+  
+Installing Pytorch in the same terminal using the following:
+  
+	conda install -c pytorch pytorch
+
+Installing Kivy in the same terminal:
+  
+	conda install -c conda-forge/label/cf201901 kivy
+
+Then run map.py using python map.py
 
 
