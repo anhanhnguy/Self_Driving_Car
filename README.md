@@ -10,7 +10,7 @@ The whit rectangle is the shape of the car, and the three little dots are the se
 The blue sensor covers an area at the left of the car, the red sensor covers an area at the front of the car,and the yellow sensor covers an area at the 
 right of the car
 
-Goal:
+**Goal:**
 - Apply AI and Reinforcement Learning to train the self-driving car to make a trip to desired place while avoiding obstacles on the road.
 
 (in map.py)
@@ -31,7 +31,7 @@ Parameters:
 - yy = (goal_y - self.car.y): the difference of y-coordinates between the goal and the car.
 - orientation: the angle that measures the direction of the car with respect to the goal.
 
-Rewards:
+**Rewards:**
 - The AI gets a bad reward of -1 if it drives onto some sand.
 - The AI gets a bad reward of -0.2 if it moves away from the destination.
 - The AI gets a good reward of 0.1 if it moves closer to the destination.
@@ -39,6 +39,7 @@ Rewards:
 Simple Demo:
 
 https://user-images.githubusercontent.com/77040892/231374683-85f0fab7-96c4-4c4b-b93d-e532f850c084.mov
+
 
 **To Run The File: Use Anaconda Prompt**
 
